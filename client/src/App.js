@@ -1,10 +1,13 @@
 import './App.css';
 import MacronutrientCalculator from './components/Calculator';
+import Layout from './components/Layout';
 
 function App() {
   return (
     <div className="App">
-      <MacronutrientCalculator />
+      <Layout>
+        <MacronutrientCalculator />
+      </Layout>
     </div>
   );
 }
